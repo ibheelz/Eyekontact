@@ -28,13 +28,23 @@ const Home = () => {
     const videoElement = useRef();
 
     useEffect(() => {
-        const handleVideo = () => {
-            videoElement.current?.addEventListener('suspend', () => {
-                videoElement.current?.play();
-            });
-        }
-        handleVideo();
-    }, [videoElement]);
+        const video = videoElement.current;
+        if (!video) return;
+
+        const tryPlay = () => { video.play().catch(() => {}); };
+
+        video.addEventListener('suspend', tryPlay);
+        video.addEventListener('loadedmetadata', tryPlay);
+        video.addEventListener('canplay', tryPlay);
+
+        tryPlay();
+
+        return () => {
+            video.removeEventListener('suspend', tryPlay);
+            video.removeEventListener('loadedmetadata', tryPlay);
+            video.removeEventListener('canplay', tryPlay);
+        };
+    }, []);
     
     document.title = 'Home';
 
