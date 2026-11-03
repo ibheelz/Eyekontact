@@ -41,15 +41,15 @@ const Home = () => {
   return (
     <div className='scroll-smooth'>
         <Navbar />
-        <div className="w-full h-[90vh] sm:h-screen bg-cover bg-no-repeat bg-center relative">
-            <video  ref={videoElement} poster={HomeImage} className="w-screen h-[90vh] sm:h-screen absolute object-cover z-[-100] brightness-[0.35]" preload="auto" autoPlay loop muted playsInline>
+        <div className="w-full h-screen relative overflow-hidden bg-black">
+            <video ref={videoElement} poster={HomeImage} style={{display:'block',position:'absolute',top:0,left:0,width:'100%',height:'100%',maxWidth:'none',maxHeight:'none',objectFit:'cover',zIndex:0,filter:'brightness(0.35)'}} preload="auto" autoPlay loop muted playsInline>
                 <source src={BgVideo} type="video/mp4" />
             </video>
-            <div 
-                data-aos="zoom-in" 
+            <div
+                data-aos="zoom-in"
                 data-aos-duration="1500"
                 data-aos-delay="500"
-                className='w-11/12 h-full mx-auto py-4 flex flex-col items-center gap-4 md:gap-0 justify-center'>
+                className='relative z-[1] w-11/12 h-full mx-auto py-4 flex flex-col items-center gap-4 md:gap-0 justify-center'>
                 <div className="w-fit -mt-14 md:mt-0">
                     <h1 className="text-white font-extrabold text-[52px] sm:text-8xl">Eyekontact</h1>
                     <p className="text-white text-sm sm:text-xl text-right font-semibold -mt-3 sm:mt-0">Limited</p>
@@ -66,7 +66,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-         <div ref={ref} className="w-full bg-black py-16 mt-10 rounded-[32px] space-y-6">
+         <div ref={ref} className="w-full bg-black py-16 rounded-[32px] space-y-6">
             <div 
                 className='w-11/12 lg:w-[80%] h-full mx-auto flex flex-col items-center justify-center space-y-14'>
                 <div 
