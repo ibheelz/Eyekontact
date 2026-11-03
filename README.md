@@ -1,1 +1,0 @@
-The official website of EyeKontact, the content is hosted here - https://eyekontact.netlify.app/
