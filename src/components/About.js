@@ -129,7 +129,8 @@ const About = () => {
 
             </div> */}
         </div>
-        <div className="w-11/12 lg:w-[80%] mx-auto py-16 md:py-32 bg-white space-y-12">
+        <div className="w-full bg-white">
+        <div className="w-11/12 lg:w-[80%] mx-auto py-16 md:py-32 space-y-12">
             <h1 
                 data-aos="fade-right" 
                 data-aos-duration="1000" 
@@ -159,6 +160,7 @@ const About = () => {
                     <p className='text-custom-ash text-xl font-medium border-t pt-2 border-[#ACACACB2]'>Advert Placed Nationwide</p>
                 </div>
             </div>
+        </div>
         </div>
         <div className="bg-black overflow-hidden relative">
             <div className='w-11/12 lg:w-[80%] mx-auto py-16 space-y-16'>
