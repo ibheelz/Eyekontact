@@ -166,20 +166,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div
-                        data-aos="fade-up"
-                        data-aos-duration="2000"
-                        className="w-full flex flex-col-reverse md:flex-row gap-4 md:gap-10 items-center">
-                        <div className="w-full md:w-1/2 text-base space-y-4">
-                            <p className="leading-8 md:text-justify">
-                                As part of our entire marketing strategy, we aim to reach the target demographic through a variety of platforms and channels. We employ a form of approach
-                                that integrates conventional and digital marketing channels across the whole client experience.
-                            </p>
-                        </div>
-                        <div className="w-full md:w-1/2">
-                            <img className="w-full" src={SecondFrameImage} alt='' />
-                        </div>
-                    </div>
+
                     <div
                         data-aos="fade-up"
                         data-aos-duration="2000"
