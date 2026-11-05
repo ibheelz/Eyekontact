@@ -335,7 +335,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className="w-full py-16 space-y-10">
+        <div className="w-full py-16 space-y-10 bg-white">
             <div className='w-11/12 lg:w-[80%] mx-auto space-y-12'>
                 <div className="space-y-4">
                     <h2 
