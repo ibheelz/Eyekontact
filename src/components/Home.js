@@ -389,66 +389,6 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className="w-full py-14">
-            <div className='w-11/12 lg:w-[80%] mx-auto space-y-10'>
-                <h1
-                    data-aos="fade-right" 
-                    data-aos-duration="1000" 
-                    className="text-black font-extrabold text-4xl md:text-5xl">some icing on the cake.</h1>
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
-                    <div 
-                        data-aos="zoom-in-up" 
-                        data-aos-duration="1500"
-                        className="space-y-8">
-                        <div className="rounded-xl">
-                            <img className="w-full md:w-11/12" src={FirstRecImage} alt="" />
-                        </div>
-                        <div className="space-y-3">
-                            <p className="text-center font-extrabold">
-                                Lorem ipsum dolor sit amet consectetur. 
-                            </p>
-                            <p className="text-center font-semibold">
-                                2020
-                            </p>
-                        </div>
-                    </div>
-                    <div 
-                        data-aos="zoom-in-up" 
-                        data-aos-duration="1500"
-                        data-aos-delay="250"
-                        className="space-y-8">
-                        <div className="rounded-xl">
-                            <img className="w-full md:w-11/12" src={SecondRecImage} alt="" />
-                        </div>
-                        <div className="space-y-3">
-                            <p className="text-center font-extrabold">
-                                Lorem ipsum dolor sit amet consectetur. 
-                            </p>
-                            <p className="text-center font-semibold">
-                                2021
-                            </p>
-                        </div>
-                    </div>
-                    <div 
-                        data-aos="zoom-in-up" 
-                        data-aos-duration="1500"
-                        data-aos-delay="500"
-                        className="space-y-8">
-                        <div className="rounded-xl">
-                            <img className="w-full md:w-11/12" src={ThirdRecImage} alt="" />
-                        </div>
-                        <div className="space-y-3">
-                            <p className="text-center font-extrabold">
-                                Lorem ipsum dolor sit amet consectetur. 
-                            </p>
-                            <p className="text-center font-semibold">
-                                2022
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div className="w-full pb-16">
             <div className='w-11/12 lg:w-[80%] mx-auto space-y-10'>
                 <h1 
