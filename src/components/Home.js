@@ -155,14 +155,18 @@ const Home = () => {
                     <div
                         data-aos="fade-up"
                         data-aos-duration="2000"
-                        className="w-full flex flex-col md:flex-row gap-4 md:gap-10 items-center">
+                        className="w-full flex flex-col md:flex-row gap-4 md:gap-10 items-start">
                         <div className="w-full md:w-1/2">
                             <img className="w-full" src={FirstFrameImage} alt='' />
                         </div>
                         <div className="w-full md:w-1/2 text-base space-y-4">
                             <p className="leading-8 md:text-justify">
-                                Through our media network across Nigeria, we provide our customers options and are experts in out-of-home (OOH) marketing and advertising communication.
-                                Additionally, we provide our clients creative help, strategic board awareness expertise, and channels to fully convey their brand message.
+                                Through our extensive media network across Nigeria, we provide customers with powerful options for out-of-home (OOH) marketing and advertising communication.
+                                We are experts at placing brands in high-traffic locations — from billboards and transit ads to digital screens and street furniture — ensuring maximum visibility where it matters most.
+                            </p>
+                            <p className="leading-8 md:text-justify">
+                                Beyond placement, we provide our clients with creative support, strategic brand awareness expertise, and the channels needed to fully convey their brand message to the right audience at the right time.
+                                Whether you are launching a new product, reinforcing brand recognition, or driving foot traffic, we tailor our approach to deliver measurable impact.
                             </p>
                         </div>
                     </div>
@@ -170,14 +174,17 @@ const Home = () => {
                     <div
                         data-aos="fade-up"
                         data-aos-duration="2000"
-                        className="w-full flex flex-col md:flex-row gap-4 md:gap-10 items-center">
+                        className="w-full flex flex-col md:flex-row gap-4 md:gap-10 items-start">
                         <div className="w-full md:w-1/2">
                             <img className="w-full" src={ThirdFrameImage} alt='' />
                         </div>
                         <div className="w-full md:w-1/2 text-base space-y-4">
                             <p className="leading-8 md:text-justify">
-                                We are firm believers in the effectiveness of OOH advertising and will offer you the most affordable means of reaching your target market in key areas.
-                                We can and will support you if you have a product that needs to be sold or an idea that needs to be noticed.
+                                We are firm believers in the power of OOH advertising and are committed to offering the most effective and affordable means of reaching your target market in key areas across Nigeria.
+                                Our strategically located inventory spans major cities and high-footfall zones, putting your brand in front of the people who matter to your business.
+                            </p>
+                            <p className="leading-8 md:text-justify">
+                                Whether you have a product that needs to be sold or an idea that needs to be noticed, we are here to make it happen. Our team brings together creative thinking, media expertise, and local market knowledge to help your brand stand out — and stay top of mind.
                             </p>
                         </div>
                     </div>
