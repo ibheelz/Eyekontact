@@ -152,53 +152,46 @@ const Home = () => {
                         what we do.
                     </h1>
                 <div className="space-y-10 md:space-y-16">
-                    <div 
-                        data-aos="fade-up" 
+                    <div
+                        data-aos="fade-up"
                         data-aos-duration="2000"
-                        className="w-full flex flex-col md:flex-row gap-4 md:gap-10 items-start">
-                        <div className="w-full md:w-1/3">
+                        className="w-full flex flex-col md:flex-row gap-4 md:gap-10 items-center">
+                        <div className="w-full md:w-1/2">
                             <img className="w-full" src={FirstFrameImage} alt='' />
                         </div>
-                        <div className="w-full md:w-2/3 text-base space-y-4">
+                        <div className="w-full md:w-1/2 text-base space-y-4">
                             <p className="leading-8 md:text-justify">
-                                Through our media network across Nigeria, we provide our customers options and are experts in out-of-home (OOH) marketing and advertising communication. 
-                                Additionally, we provide our clients creative help, strategic board awareness expertise, and channels to fully convey their brand message. 
+                                Through our media network across Nigeria, we provide our customers options and are experts in out-of-home (OOH) marketing and advertising communication.
+                                Additionally, we provide our clients creative help, strategic board awareness expertise, and channels to fully convey their brand message.
                             </p>
                         </div>
                     </div>
-                    <div 
-                        data-aos="fade-up" 
+                    <div
+                        data-aos="fade-up"
                         data-aos-duration="2000"
-                        className="w-full flex flex-col-reverse md:flex-row gap-4 md:gap-10 items-start">
-                        <div className="w-full md:w-2/3 text-base space-y-4">
+                        className="w-full flex flex-col-reverse md:flex-row gap-4 md:gap-10 items-center">
+                        <div className="w-full md:w-1/2 text-base space-y-4">
                             <p className="leading-8 md:text-justify">
-                                As part of our entire marketing strategy, we aim to reach the target demographic through a variety of platforms and channels. We employ a form of approach 
-                                that integrates conventional and digital marketing channels across the whole client experience. 
+                                As part of our entire marketing strategy, we aim to reach the target demographic through a variety of platforms and channels. We employ a form of approach
+                                that integrates conventional and digital marketing channels across the whole client experience.
                             </p>
                         </div>
-                        <div className="w-full md:w-1/3">
+                        <div className="w-full md:w-1/2">
                             <img className="w-full" src={SecondFrameImage} alt='' />
                         </div>
                     </div>
-                    <div 
-                        data-aos="fade-up" 
+                    <div
+                        data-aos="fade-up"
                         data-aos-duration="2000"
-                        className="w-full flex flex-col md:flex-row gap-4 md:gap-10 items-start">
-                        <div className="w-full md:w-1/3">
+                        className="w-full flex flex-col md:flex-row gap-4 md:gap-10 items-center">
+                        <div className="w-full md:w-1/2">
                             <img className="w-full" src={ThirdFrameImage} alt='' />
                         </div>
-                        <div className="w-full md:w-2/3 text-base space-y-4">
+                        <div className="w-full md:w-1/2 text-base space-y-4">
                             <p className="leading-8 md:text-justify">
-                                We are firm believers in the effectiveness of OOH advertising and will offer you the most affordable means of reaching your target market in key areas. 
+                                We are firm believers in the effectiveness of OOH advertising and will offer you the most affordable means of reaching your target market in key areas.
                                 We can and will support you if you have a product that needs to be sold or an idea that needs to be noticed.
                             </p>
-                            <div className="relative w-fit md:border-2 bg-custom-blue md:bg-white md:border-black rounded-full cursor-pointer mx-auto md:ml-0 md:mb-10">
-                                <Link to='/contact-us'>
-                                    <div className="hidden md:block absolute rounded-full h-full w-10 p-2 bg-custom-blue border-2 border-black -left-1"></div>
-                                    <p className="py-[8px] hidden md:block pr-5 pl-12 font-bold">Contact Us</p>
-                                    <p className="py-2 p-4 font-bold text-white md:hidden">Contact Us</p>
-                                </Link>
-                            </div>
                         </div>
                     </div>
                 </div>
