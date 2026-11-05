@@ -143,10 +143,10 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className="w-full py-16">
+        <div className="w-full py-16 bg-white">
             <div className='w-11/12 lg:w-[80%] mx-auto space-y-10 overflow-hidden'>
-                <h1 
-                    data-aos="fade-right" 
+                <h1
+                    data-aos="fade-right"
                     data-aos-duration="1000"
                     className="text-black font-extrabold text-4xl md:text-5xl">
                         what we do.
